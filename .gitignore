@@ -2,3 +2,7 @@
 /node_modules
 Homestead.yaml
 .env
+*.sqlite
+/public/build
+/public/css
+/public/js
