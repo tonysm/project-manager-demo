@@ -9,8 +9,8 @@ use App\Http\Controllers\Controller;
 
 class ScreenController extends Controller
 {
-    public function dashboard()
+    public function internal()
     {
-	    return view('projects.dashboard');
+	    return view('layouts.internal');
     }
 }

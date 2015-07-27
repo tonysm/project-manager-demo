@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                @yield('content')
+                <ng-view></ng-view>
             </div>
 
             <div class="col-md-4">
@@ -20,7 +20,6 @@
         </div>
     </div>
 
-    <script src="{{elixir('js/vendor.js')}}"></script>
     <script src="{{ elixir('js/bundle.js') }}"></script>
 </body>
 </html>

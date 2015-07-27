@@ -1,6 +1,13 @@
-var app = angular.module('app', []);
-var ProjectsList = require('./directives/projectsList');
-var ProjectsService = require('./services/projects');
+'use strict';
 
-app.service('Projects', ProjectsService);
-app.directive('projectsList', ProjectsList);
+// Dependencies
+require('angular');
+require('angular-route');
+
+var app = angular.module('app', ['ngRoute']);
+
+// Application bindings
+require('./services');
+require('./directives');
+require('./controllers');
+require('./config');

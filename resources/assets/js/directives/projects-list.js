@@ -38,7 +38,7 @@ function ProjectsList() {
         bindToController: true,
         replace: true,
         scope: {},
-        template: require('./../templates/projects-list.html')
+        template: require('./../templates/directives/projects-list.html')
     };
 }
 
