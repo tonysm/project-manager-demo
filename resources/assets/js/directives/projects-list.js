@@ -1,3 +1,5 @@
+'use strict';
+
 function ProjectsList() {
     function ProjectsListController(Projects) {
         Projects.getProjects().then(function(result) {
@@ -41,6 +43,5 @@ function ProjectsList() {
         template: require('./../templates/directives/projects-list.html')
     };
 }
-
 
 module.exports = ProjectsList;
