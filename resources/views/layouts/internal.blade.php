@@ -20,6 +20,7 @@
         </div>
     </div>
 
+    <script src="{{ elixir('js/vendor.js') }}"></script>
     <script src="{{ elixir('js/bundle.js') }}"></script>
 </body>
 </html>
